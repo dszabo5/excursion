@@ -3,18 +3,71 @@ html {
     font-family: Verdana, sans-serif;
     color:azure;
     background-color: black;
-}
-
-header {
     text-align: center;
 }
+
+.image-container {
+    overflow: hidden;
+}
+  
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+a {
+    color:aquamarine;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.video {
+    margin: auto;
+    padding-top: 2rem;
+}
+
+img {
+    margin:auto;
+}
+
+h2 {
+    font-weight: 300px;
+    font-size: 42px;
+}
+
+
+/* HEADER */
 
 header h1 {
     font-weight: normal;
     font-size: 50px;
 }
 
-a {
-    color:aquamarine;
-    text-decoration: underline;
+
+/* DECRIPTION */
+
+.description {
+    padding-top: 2rem;
+}
+
+.description h5 {
+    color:gray;
+    font-size: 21px;
+}
+
+
+/* FOOTER */
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer h2 {
+    font-weight: normal;
+}
+
+.copyright {
+    text-align: right;
+    color: gray;
 }
